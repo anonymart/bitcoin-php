@@ -80,7 +80,7 @@ class Bitcoin
      * @param GeneratorPoint $generator
      * @return EcAdapterInterface
      */
-    public static function getEcAdapter(Math $math = null, GeneratorPoint $generator = null)
+    public static function getEcAdapter(Math $math = null, \Mdanter\Ecc\GeneratorPoint $generator = null)
     {
         return self::$ecAdapter ?: EcAdapterFactory::getAdapter(
             ($math ?: self::getMath()),
