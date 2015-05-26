@@ -13,12 +13,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "BitWasp\\Bitcoin\\": "src/"
+      "Anonymart\\Bitcoin\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "BitWasp\\Bitcoin\\Tests\\": "tests/"
+      "Anonymart\\Bitcoin\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",
